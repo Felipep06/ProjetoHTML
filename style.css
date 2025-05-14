@@ -1,0 +1,60 @@
+* {
+    transition: 0.2s linear;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: rgb(17, 16, 16);
+}
+
+section {
+    padding: 3rem 2rem;
+        margin: 0 auto;
+        max-width: 1200px;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    border: 2px;
+    border-radius: #fff;
+}
+.header section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    
+    
+}
+
+.navegacao a {
+    margin: 10px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.navegacao a:hover {
+    color: #d3ad7f;
+    border-bottom: 0.1rem solid var (--main-color);
+    padding-bottom: 0.5rem;
+    font-size: 2rem;
+    
+}
+
+.icones img {
+    margin: 10px;
+    cursor: pointer;
+    
+}
+
+.icones img:hover {
+    padding-bottom: 0.5rem;
+}
+
+
+
