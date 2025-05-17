@@ -4,7 +4,10 @@
 }
 
 body {
-    background-color: rgb(17, 16, 16);
+    background-color: rgb(29, 25, 25);
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
 section {
@@ -18,9 +21,9 @@ section {
     top: 0;
     left: 0;
     right: 0;
-    background-color: black;
+    background-color: #422a12;
     border: 2px;
-    border-radius: #fff;
+    
 }
 .header section {
     display: flex;
@@ -28,19 +31,17 @@ section {
     justify-content: space-between;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-    
-    
 }
 
 .navegacao a {
     margin: 10px;
-    font-size: 18px;
+    font-size: 20px;
     color: #ffffff;
+    text-decoration: none;
 }
 
 .navegacao a:hover {
     color: #d3ad7f;
-    border-bottom: 0.1rem solid var (--main-color);
     padding-bottom: 0.5rem;
     font-size: 2rem;
     
@@ -57,4 +58,15 @@ section {
 }
 
 
+.imagem1-fundo {
+    background: url("./img/home-img.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
 
+.imagem1-fundo section{
+    display: flex;
+    min-height: 100vh;
+}
