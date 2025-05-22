@@ -66,20 +66,7 @@ section{
     line-height: 1.5rem;
     margin-bottom: 1.5rem;
 }
-.header-button-side-left button{
-    background-color: #a0522d;
-    border: none;
-    cursor: pointer;
-    padding: 0.8rem 3.8rem;
-    border-radius: 9999px;
-    color: white;
-    font-weight: 500;
-    font-size: 1rem;
-    transition: all 0.2s;
-}
-.header-button-side-left button:hover{
-    background-color: saddlebrown;
-}
+
 .header-button-side-left{
     height: 100%;
     flex-basis: 50%;
