@@ -147,3 +147,56 @@ section{
 .preco-produto span{
     font-weight: 600;
 }
+
+.opcoes-produto {
+    margin-top: 1rem;
+    background-color: #fff8f0;
+    padding: 0.8rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    font-size: 0.9rem;
+    color: saddlebrown;
+}
+
+.opcoes-produto label {
+    display: block;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}
+
+.opcoes-produto input[type="checkbox"] {
+    margin-right: 0.4rem;
+    accent-color: peru;
+}
+
+.opcoes-produto select {
+    width: 100%;
+    padding: 0.4rem;
+    margin-top: 0.3rem;
+    border: 1px solid peru;
+    border-radius: 6px;
+    font-family: "Poppins", sans-serif;
+    background-color: white;
+    color: saddlebrown;
+}
+
+.opcoes-produto select:focus {
+    outline: 2px solid peru;
+}
+
+.botao-carrinho {
+    margin-top: 1rem;
+    padding: 0.6rem 1.2rem;
+    background-color: peru;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.botao-carrinho:hover {
+    background-color: saddlebrown;
+}
