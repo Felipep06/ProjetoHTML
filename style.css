@@ -1,117 +1,3 @@
-* {
-    transition: 0.3s linear;
-    font-family: "Roboto", sans-serif;
-}
-
-body {
-    background-color: #FFDEAD;
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    font-family: "Poppins",sans-serif;
-}
-
-section {
-    padding: 3rem 2rem;
-        margin: 0 auto;
-        max-width: 1200px;
-}
-
-.header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    background-color: #8B4513;
-    border: 2px;
-    z-index: 100;
-
-}
-.header section {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-}
-
-.navegacao a {
-    margin: 10px;
-    font-size: 1.1rem;
-    color: #ffffff;
-    text-decoration: none;
-}
-
-.navegacao a:hover {
-    color: #d3ad7f;
-    padding-bottom: 0.5rem;
-    font-size: 1.7rem;
-
-}
-
-.icones img {
-    margin: 10px;
-    cursor: pointer;
-
-}
-
-.icones img:hover {
-    padding-bottom: 0.5rem;
-}
-
-
-.imagem1-fundo {
-    background: url("https://grupokallas.com.br/wp-content/uploads/2023/04/dia-do-cafe-8-cafeterias-renomadas-em-sp.jpg");
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-
-}
-
-.imagem1-fundo section{
-    display: flex;
-    min-height: 100vh;
-}
-
-.texto {
-    z-index: 99;
-    color: #fff;
-    margin-top: 100px;
-    line-height: 0.8rem;
-    position: fixed;
-
-}
-
-.texto p {
-    line-height: 1.3rem;
-}
-
-.imagem1-fundo .texto {
-    position: sticky;
-}
-
-.carrosel {
-    display: flex;
-    justify-content:center;
-    align-items: center;
-
-}
-
-.img-carrosel1 img{
-    padding: 2rem;
-}
-
-.menu{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-main .carrosel{
-    background-color: #8B4513;
-
-}
-
 *{
     padding: 0;
     margin: 0;
@@ -248,31 +134,6 @@ section{
     margin-bottom: 1rem;
     display: flex;
     flex-direction: column;
-
-}
-.produto-nome{
-    font-weight: 600;
-    margin-top: 0.4rem;
-}
-.nota{
-    color: saddlebrown;
-    font-size: 1.3rem;
-}
-.preco-produto span{
-    font-weight: 600;
-}
-.subtitle-underline{
-    width: 100px;
-    height: 5px;
-    background: sienna;
-    border-radius: 9999px;
-    margin: 8px auto 0 auto;
-}
-.produt{
-    color: saddlebrown;
-    margin-bottom: 1rem;
-    display: flex;
-    flex-direction: column;
     
 }
 .produto-nome{
@@ -286,37 +147,95 @@ section{
 .preco-produto span{
     font-weight: 600;
 }
-depoimento {
-    background-color: #fffaf0;
+
+.opcoes-produto {
+    margin-top: 1rem;
+    background-color: #fff8f0;
+    padding: 0.8rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    font-size: 0.9rem;
+    color: saddlebrown;
+}
+
+.opcoes-produto label {
+    display: block;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}
+
+.opcoes-produto input[type="checkbox"] {
+    margin-right: 0.4rem;
+    accent-color: peru;
+}
+
+.opcoes-produto select {
+    width: 100%;
+    padding: 0.4rem;
+    margin-top: 0.3rem;
+    border: 1px solid peru;
+    border-radius: 6px;
+    font-family: "Poppins", sans-serif;
+    background-color: white;
+    color: saddlebrown;
+}
+
+.opcoes-produto select:focus {
+    outline: 2px solid peru;
+}
+
+.botao-carrinho {
+    margin-top: 1rem;
+    padding: 0.6rem 1.2rem;
+    background-color: peru;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.botao-carrinho:hover {
+    background-color: saddlebrown;
+}
+.depoimento {
+    background-color: #fff8f0;
     padding: 1rem;
     border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: saddlebrown;
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
     text-align: center;
-    transition: transform 0.3s ease;
+    height: 250px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
-.depoimento:hover {
-    transform: translateY(-5px);
-}
-
-.depoimento img {
+.foto-depoimento {
     width: 60px;
     height: 60px;
     border-radius: 50%;
     object-fit: cover;
+    border: 2px solid peru;
     margin-bottom: 0.5rem;
-    border: 2px solid #8b4513;
 }
 
-.comentario {
+.texto-depoimento {
     font-style: italic;
-    color: #4b2e19;
-    margin-bottom: 0.5rem;
-    font-size: 0.95rem;
+    font-size: 0.85rem;
+    margin: 0.3rem 0;
+    flex-grow: 1;
+    padding: 0 0.3rem;
 }
 
-.cliente {
+.autor-depoimento {
     font-weight: bold;
-    color: #8b4513;
     font-size: 0.9rem;
+    margin-top: 0.5rem;
 }

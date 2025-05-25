@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Café</title>
-    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -17,13 +17,10 @@
     <header class="header">
         <section>
             <a href="#" class="logo">
-                <img width="64" height="64" src="https://img.icons8.com/dusk/64/java-coffee-cup-logo.png" alt="java-coffee-cup-logo"/>
                 <img width="64" height="64" src="https://img.icons8.com/dusk/64/java-coffee-cup-logo.png"
                     alt="java-coffee-cup-logo" />
             </a>
             <nav class="navegacao">
-                <a href="#">Início</a>
-                <a href="#rodape">Sobre</a>
                 <a href="#inicio">Início</a>
                 <a href="#sobre">Sobre</a>
                 <a href="#Menu">Menu</a>
@@ -31,8 +28,6 @@
                 <a href="#localizacao">Localização</a>
             </nav>
             <div class="icones">
-                <img src="https://img.icons8.com/ios-filled/30/ffffff/search--v1.png"/>
-                <img src="https://img.icons8.com/ios-glyphs/30/ffffff/shopping-cart--v1.png"/>
                 <img src="https://img.icons8.com/ios-filled/30/ffffff/search--v1.png" height="30px" width="30px" />
                 <img src="https://img.icons8.com/ios-glyphs/30/ffffff/shopping-cart--v1.png" height="30px"
                     width="30px" />
@@ -55,7 +50,6 @@
         </div>
         </section>
     </header>
-            <div class="inicio-foto">
     <main>
         <div class="cor-de-fundo">
             <div class="page-inner-content">
@@ -82,12 +76,36 @@
                         <p class="produto-nome">Café Americano</p>
                         <p class="nota">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
                         <p class="preco-produto">12,00 <span>R$</span></p>
+                        <form class="opcoes-produto">
+                            <label>
+                                <input type="checkbox" name="acucar" value="com_acucar"> Com açúcar
+                            </label>
+                            <label>
+                                <input type="checkbox" name="acucar" value="sem_acucar"> Sem açúcar
+                            </label>
+                            <button type="submit" class="botao-carrinho">Adicionar ao carrinho</button>
+                        </form>
                     </div>
                     <div class="produto">
                         <img src="https://osterstatic.reciperm.com/webp/10436.webp" alt="" width="200px" height="200px">
                         <p class="produto-nome"> Café Macchiato</p>
                         <p class="nota">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
                         <p class="preco-produto">25,00 <span>R$</span></p>
+                        <form class="opcoes-produto">
+                            <label>
+                                <input type="checkbox" name="acucar" value="com_acucar"> Com açúcar
+                            </label>
+                            <label>
+                                <input type="checkbox" name="acucar" value="sem_acucar"> Sem açúcar
+                            </label>
+                            <label for="tipo-leite">Tipo de leite:</label>
+                            <select name="tipo-leite" id="tipo-leite">
+                                <option value="integral">Integral</option>
+                                <option value="desnatado">Desnatado</option>
+                                <option value="vegetal">Vegetal</option>
+                            </select>
+                            <button type="submit" class="botao-carrinho">Adicionar ao carrinho</button>
+                        </form>
                     </div>
                     <div class="produto">
                         <img src="https://kbiocafe.com/cdn/shop/products/latte432.jpg?v=1632363618" alt="" width="200px"
@@ -95,6 +113,21 @@
                         <p class="produto-nome">Café Latte</p>
                         <p class="nota">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
                         <p class="preco-produto">22,00 <span>R$</span></p>
+                        <form class="opcoes-produto">
+                            <label>
+                                <input type="checkbox" name="acucar" value="com_acucar"> Com açúcar
+                            </label>
+                            <label>
+                                <input type="checkbox" name="acucar" value="sem_acucar"> Sem açúcar
+                            </label>
+                            <label for="tipo-leite">Tipo de leite:</label>
+                            <select name="tipo-leite" id="tipo-leite">
+                                <option value="integral">Integral</option>
+                                <option value="desnatado">Desnatado</option>
+                                <option value="vegetal">Vegetal</option>
+                            </select>
+                            <button type="submit" class="botao-carrinho">Adicionar ao carrinho</button>
+                        </form>
                     </div>
                     <div class="produto">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST0u-VCHb93dm24GCbxwFhv81hZaANmfaa7n2FXkk3kMJ9GCsb7hU-OFr0LH_-tGmwbj8&usqp=CAU"
@@ -102,6 +135,21 @@
                         <p class="produto-nome">Café Mocha</p>
                         <p class="nota">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
                         <p class="preco-produto">19,00 <span>R$</span></p>
+                        <form class="opcoes-produto">
+                            <label>
+                                <input type="checkbox" name="acucar" value="com_acucar"> Com açúcar
+                            </label>
+                            <label>
+                                <input type="checkbox" name="acucar" value="sem_acucar"> Sem açúcar
+                            </label>
+                            <label for="tipo-leite">Tipo de leite:</label>
+                            <select name="tipo-leite" id="tipo-leite">
+                                <option value="integral">Integral</option>
+                                <option value="desnatado">Desnatado</option>
+                                <option value="vegetal">Vegetal</option>
+                            </select>
+                            <button type="submit" class="botao-carrinho">Adicionar ao carrinho</button>
+                        </form>
                     </div>
                     <div class="produto">
                         <img src="https://kauai.co.za/wp-content/uploads/2020/05/Kauai-Cortado-Blog-Post-Web-Images-640x384px2-1-1024x615.png"
@@ -109,6 +157,21 @@
                         <p class="produto-nome">Café Cortado</p>
                         <p class="nota">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
                         <p class="preco-produto">11,00 <span>R$</span></p>
+                        <form class="opcoes-produto">
+                            <label>
+                                <input type="checkbox" name="acucar" value="com_acucar"> Com açúcar
+                            </label>
+                            <label>
+                                <input type="checkbox" name="acucar" value="sem_acucar"> Sem açúcar
+                            </label>
+                            <label for="tipo-leite">Tipo de leite:</label>
+                            <select name="tipo-leite" id="tipo-leite">
+                                <option value="integral">Integral</option>
+                                <option value="desnatado">Desnatado</option>
+                                <option value="vegetal">Vegetal</option>
+                            </select>
+                            <button type="submit" class="botao-carrinho">Adicionar ao carrinho</button>
+                        </form>
                     </div>
                     <div class="produto">
                         <img src="https://fgdjrynm.filerobot.com/recipes/d19219503751c29cc69f2c4bbac6bbcc08a7d194c5d9bbce9768ca00c6d04aa3.jpg?vh=cf510f&h=800&w=800&q=60"
@@ -116,6 +179,21 @@
                         <p class="produto-nome">Café Frappé </p>
                         <p class="nota">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
                         <p class="preco-produto"> 19,00<span>R$</span></p>
+                        <form class="opcoes-produto">
+                            <label>
+                                <input type="checkbox" name="acucar" value="com_acucar"> Com açúcar
+                            </label>
+                            <label>
+                                <input type="checkbox" name="acucar" value="sem_acucar"> Sem açúcar
+                            </label>
+                            <label for="tipo-leite">Tipo de leite:</label>
+                            <select name="tipo-leite" id="tipo-leite">
+                                <option value="integral">Integral</option>
+                                <option value="desnatado">Desnatado</option>
+                                <option value="vegetal">Vegetal</option>
+                            </select>
+                            <button type="submit" class="botao-carrinho">Adicionar ao carrinho</button>
+                        </form>
                     </div>
                     <div class="produto">
                         <img src="https://www.seriouseats.com/thmb/x5dQAByuE9saNvybQ4sjTU1dHG8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20230621-SEA-DalognaCoffee-LorenaMasso-hero-e6a0eb179a2d457fb40c059d91594c35.jpg"
@@ -123,6 +201,21 @@
                         <p class="produto-nome">Dalgona Coffee</p>
                         <p class="nota">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
                         <p class="preco-produto"> 28,50<span>R$</span></p>
+                        <form class="opcoes-produto">
+                            <label>
+                                <input type="checkbox" name="acucar" value="com_acucar"> Com açúcar
+                            </label>
+                            <label>
+                                <input type="checkbox" name="acucar" value="sem_acucar"> Sem açúcar
+                            </label>
+                            <label for="tipo-leite">Tipo de leite:</label>
+                            <select name="tipo-leite" id="tipo-leite">
+                                <option value="integral">Integral</option>
+                                <option value="desnatado">Desnatado</option>
+                                <option value="vegetal">Vegetal</option>
+                            </select>
+                            <button type="submit" class="botao-carrinho">Adicionar ao carrinho</button>
+                        </form>
                     </div>
                     <div class="produto">
                         <img src="https://www.maquinascafeexpresso.com/wp-content/uploads/2019/08/quais-sao-caracteristicas-cafe-panna-2.jpg"
@@ -130,6 +223,21 @@
                         <p class="produto-nome">Café com Panna</p>
                         <p class="nota">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
                         <p class="preco-produto"> 13,00<span>R$</span></p>
+                        <form class="opcoes-produto">
+                            <label>
+                                <input type="checkbox" name="acucar" value="com_acucar"> Com açúcar
+                            </label>
+                            <label>
+                                <input type="checkbox" name="acucar" value="sem_acucar"> Sem açúcar
+                            </label>
+                            <label for="tipo-leite">Tipo de leite:</label>
+                            <select name="tipo-leite" id="tipo-leite">
+                                <option value="integral">Integral</option>
+                                <option value="desnatado">Desnatado</option>
+                                <option value="vegetal">Vegetal</option>
+                            </select>
+                            <button type="submit" class="botao-carrinho">Adicionar ao carrinho</button>
+                        </form>
                     </div>
                     <div class="produto">
                         <img src="https://minascomvoce.com.br/wp-content/uploads/2022/02/raf_plain-740x493-1.jpg" alt=""
@@ -137,6 +245,21 @@
                         <p class="produto-nome">Café Mead Raf</p>
                         <p class="nota">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
                         <p class="preco-produto"> 34,00<span>R$</span></p>
+                        <form class="opcoes-produto">
+                            <label>
+                                <input type="checkbox" name="acucar" value="com_acucar"> Com açúcar
+                            </label>
+                            <label>
+                                <input type="checkbox" name="acucar" value="sem_acucar"> Sem açúcar
+                            </label>
+                            <label for="tipo-leite">Tipo de leite:</label>
+                            <select name="tipo-leite" id="tipo-leite">
+                                <option value="integral">Integral</option>
+                                <option value="desnatado">Desnatado</option>
+                                <option value="vegetal">Vegetal</option>
+                            </select>
+                            <button type="submit" class="botao-carrinho">Adicionar ao carrinho</button>
+                        </form>
                     </div>
                     <div class="produto">
                         <img src="https://www.vitamix.com/content/dam/vitamix/migration/media/recipe/rcppumpkinmuffins/images/pumpkinmuffinsmainjpg.jpg"
@@ -144,6 +267,15 @@
                         <p class="produto-nome">Muffin</p>
                         <p class="nota">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
                         <p class="preco-produto"> 2,00<span>R$</span></p>
+                        <form class="opcoes-produto">
+                            <label for="porcao-muffin">Porção:</label>
+                            <select name="porcao-muffin" id="porcao-muffin">
+                                <option value="1">1 unidade</option>
+                                <option value="3">3 unidades</option>
+                                <option value="6">6 unidades</option>
+                            </select>
+                            <button type="submit" class="botao-carrinho">Adicionar ao carrinho</button>
+                        </form>
                     </div>
                     <div class="produto">
                         <img src="https://static.itdg.com.br/images/640-440/c850a535e8de2a4793622a50a858a6d3/shutterstock-1488059969.jpg"
@@ -151,6 +283,15 @@
                         <p class="produto-nome">cookies</p>
                         <p class="nota">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
                         <p class="preco-produto"> 0,50<span>R$</span></p>
+                        <form class="opcoes-produto">
+                            <label for="porcao-cookies">Porção:</label>
+                            <select name="porcao-cookies" id="porcao-cookies">
+                                <option value="1">1 unidade</option>
+                                <option value="5">5 unidades</option>
+                                <option value="10">10 unidades</option>
+                            </select>
+                            <button type="submit" class="botao-carrinho">Adicionar ao carrinho</button>
+                        </form>
                     </div>
                     <div class="produto">
                         <img src="https://moinhoglobo.com.br/wp-content/uploads/2016/03/44-p%C3%A3o-de-queijo.jpg"
@@ -158,6 +299,15 @@
                         <p class="produto-nome">Cesta de Pão de Queijo</p>
                         <p class="nota">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
                         <p class="preco-produto"> 19,00<span>R$</span></p>
+                        <form class="opcoes-produto">
+                            <label for="porcao-pao">Porção:</label>
+                            <select name="porcao-pao" id="porcao-pao">
+                                <option value="6">6 unidades</option>
+                                <option value="12">12 unidades</option>
+                                <option value="20">20 unidades</option>
+                            </select>
+                            <button type="submit" class="botao-carrinho">Adicionar ao carrinho</button>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -168,50 +318,47 @@
 
                 </div>
             </div>
-
         </div>
         </div>
-        <div class="cols cols-4" id="avaliacao">
-    <div class="depoimento">
-        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Ana Paula">
-        <p class="comentario">"O melhor café que já tomei! Ambiente acolhedor e atendimento impecável."</p>
-        <p class="cliente">— Ana Paula</p>
-    </div>
-    <div class="depoimento">
-        <img src="https://randomuser.me/api/portraits/men/33.jpg" alt="João Carlos">
-        <p class="comentario">"Os muffins são incríveis, perfeitos para acompanhar um latte."</p>
-        <p class="cliente">— João Carlos</p>
-    </div>
-    <div class="depoimento">
-        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Beatriz Lima">
-        <p class="comentario">"Excelente lugar para trabalhar e relaxar. Voltarei com certeza!"</p>
-        <p class="cliente">— Beatriz Lima</p>
-    </div>
-    <div class="depoimento">
-        <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Ricardo Gomes">
-        <p class="comentario">"O Frappé estava delicioso. Recomendo muito!"</p>
-        <p class="cliente">— Ricardo Gomes</p>
-    </div>
-    <div class="depoimento">
-        <img src="https://randomuser.me/api/portraits/women/26.jpg" alt="Mariana Silva">
-        <p class="comentario">"Ambiente muito agradável e café de excelente qualidade!"</p>
-        <p class="cliente">— Mariana Silva</p>
-    </div>
-    <div class="depoimento">
-        <img src="https://randomuser.me/api/portraits/men/54.jpg" alt="Lucas Ferreira">
-        <p class="comentario">"Atendimento rápido e cordial. Ótimo para reuniões!"</p>
-        <p class="cliente">— Lucas Ferreira</p>
-    </div>
-    <div class="depoimento">
-        <img src="https://randomuser.me/api/portraits/women/15.jpg" alt="Carla Souza">
-        <p class="comentario">"Adorei os cookies e o capuccino. Perfeitos!"</p>
-        <p class="cliente">— Carla Souza</p>
-    </div>
-    <div class="depoimento">
-        <img src="https://randomuser.me/api/portraits/men/76.jpg" alt="Daniel Rocha">
-        <p class="comentario">"Melhor café da cidade. Ambiente charmoso e acolhedor."</p>
-        <p class="cliente">— Daniel Rocha</p>
-    </div>
+        <div class="depoimento">
+    <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Foto de Juliana" class="foto-depoimento">
+    <p class="texto-depoimento">"Ambiente aconchegante, ótimo atendimento e um café simplesmente maravilhoso!"</p>
+    <p class="autor-depoimento">– Juliana M.</p>
+</div>
+<div class="depoimento">
+    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Foto de Ricardo" class="foto-depoimento">
+    <p class="texto-depoimento">"Sempre venho aqui para trabalhar. O aroma e o silêncio me inspiram!"</p>
+    <p class="autor-depoimento">– Ricardo T.</p>
+</div>
+<div class="depoimento">
+    <img src="https://randomuser.me/api/portraits/women/55.jpg" alt="Foto de Fernanda" class="foto-depoimento">
+    <p class="texto-depoimento">"Recomendo muito! O pão de queijo é sensacional e os cafés são de qualidade."</p>
+    <p class="autor-depoimento">– Fernanda A.</p>
+</div>
+<div class="depoimento">
+    <img src="https://randomuser.me/api/portraits/men/68.jpg" alt="Foto de Marcelo" class="foto-depoimento">
+    <p class="texto-depoimento">"O melhor lugar da cidade para tomar um bom café e relaxar."</p>
+    <p class="autor-depoimento">– Marcelo V.</p>
+</div>
+<div class="depoimento">
+    <img src="https://randomuser.me/api/portraits/women/85.jpg" alt="Foto de Aline" class="foto-depoimento">
+    <p class="texto-depoimento">"Adoro vir com meus amigos! Ótimos drinks e sobremesas deliciosas."</p>
+    <p class="autor-depoimento">– Aline F.</p>
+</div>
+<div class="depoimento">
+    <img src="https://randomuser.me/api/portraits/men/15.jpg" alt="Foto de João" class="foto-depoimento">
+    <p class="texto-depoimento">"Os baristas são incríveis e sempre me surpreendem com novos sabores."</p>
+    <p class="autor-depoimento">– João C.</p>
+</div>
+<div class="depoimento">
+    <img src="https://randomuser.me/api/portraits/women/20.jpg" alt="Foto de Camila" class="foto-depoimento">
+    <p class="texto-depoimento">"Lugar ideal para uma pausa no meio do dia. Super tranquilo e bem decorado."</p>
+    <p class="autor-depoimento">– Camila R.</p>
+</div>
+<div class="depoimento">
+    <img src="https://randomuser.me/api/portraits/men/22.jpg" alt="Foto de Eduardo" class="foto-depoimento">
+    <p class="texto-depoimento">"Já experimentei quase todo o menu, e tudo é delicioso. Atendimento nota 10."</p>
+    <p class="autor-depoimento">– Eduardo M.</p>
 </div>
     </main>
 </body>
