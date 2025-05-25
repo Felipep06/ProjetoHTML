@@ -112,3 +112,152 @@ main .carrosel{
    
 }
 
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s linear;
+}
+body{
+    background-color: navajowhite;
+    font-family: "Poppins", sans-serif;
+}
+section{
+    padding: 3rem 2rem;
+    margin: 0 auto;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    border-bottom: 0.1rem solid peru;
+    background-color: saddlebrown;
+}
+.header section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.navegacao  a {
+    margin: 0 1rem;
+    font-size: 1.2rem;
+    color: white;
+
+}
+.navegacao  a:hover {
+    color: peru;
+    border-bottom: 0.1rem solid navajowhite;
+    padding-bottom: 0.5rem;
+    font-size: 1.4rem;
+}
+.icones img{
+    margin: 1rem;
+    cursor: pointer;
+}
+.icones img:hover{
+    width: 40px;
+    height: 40px;
+}
+
+.header-button-side{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    padding: 1rem;
+}
+.header-button-side-left h2 {
+    font-size: 3.2rem;
+    margin-bottom: 1.5rem;
+}
+.header-button-side-left p{
+    line-height: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.header-button-side-left{
+    height: 100%;
+    flex-basis: 50%;
+}
+.header-button-side-right{
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-button-side-right img{
+    width: 100%;
+}
+.cor-de-fundo{
+    background-color: saddlebrown;
+}
+.page-inner-content{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.cols {
+    display: grid;
+    justify-content: space-evenly;
+    padding: 1rem 4rem;
+}
+.cols-3{
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+}
+.cols-3 img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+.cols-4 img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+.cols-4{
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+}
+.cols>*{
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.cols>*:hover{
+    transform: translateY(-5px);
+}
+.section-title{
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 1.8rem;
+}
+.subtitle-underline{
+    width: 100px;
+    height: 5px;
+    background: sienna;
+    border-radius: 9999px;
+    margin: 8px auto 0 auto;
+}
+.produt{
+    color: saddlebrown;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+.produto-nome{
+    font-weight: 600;
+    margin-top: 0.4rem;
+}
+.nota{
+    color: saddlebrown;
+    font-size: 1.3rem;
+}
+.preco-produto span{
+    font-weight: 600;
+}
