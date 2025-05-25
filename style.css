@@ -1,0 +1,322 @@
+* {
+    transition: 0.3s linear;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #FFDEAD;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: "Poppins",sans-serif;
+}
+
+section {
+    padding: 3rem 2rem;
+        margin: 0 auto;
+        max-width: 1200px;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #8B4513;
+    border: 2px;
+    z-index: 100;
+
+}
+.header section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.navegacao a {
+    margin: 10px;
+    font-size: 1.1rem;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.navegacao a:hover {
+    color: #d3ad7f;
+    padding-bottom: 0.5rem;
+    font-size: 1.7rem;
+
+}
+
+.icones img {
+    margin: 10px;
+    cursor: pointer;
+
+}
+
+.icones img:hover {
+    padding-bottom: 0.5rem;
+}
+
+
+.imagem1-fundo {
+    background: url("https://grupokallas.com.br/wp-content/uploads/2023/04/dia-do-cafe-8-cafeterias-renomadas-em-sp.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.imagem1-fundo section{
+    display: flex;
+    min-height: 100vh;
+}
+
+.texto {
+    z-index: 99;
+    color: #fff;
+    margin-top: 100px;
+    line-height: 0.8rem;
+    position: fixed;
+
+}
+
+.texto p {
+    line-height: 1.3rem;
+}
+
+.imagem1-fundo .texto {
+    position: sticky;
+}
+
+.carrosel {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+
+.img-carrosel1 img{
+    padding: 2rem;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main .carrosel{
+    background-color: #8B4513;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s linear;
+}
+body{
+    background-color: navajowhite;
+    font-family: "Poppins", sans-serif;
+}
+section{
+    padding: 3rem 2rem;
+    margin: 0 auto;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    border-bottom: 0.1rem solid peru;
+    background-color: saddlebrown;
+}
+.header section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.navegacao  a {
+    margin: 0 1rem;
+    font-size: 1.2rem;
+    color: white;
+
+}
+.navegacao  a:hover {
+    color: peru;
+    border-bottom: 0.1rem solid navajowhite;
+    padding-bottom: 0.5rem;
+    font-size: 1.4rem;
+}
+.icones img{
+    margin: 1rem;
+    cursor: pointer;
+}
+.icones img:hover{
+    width: 40px;
+    height: 40px;
+}
+
+.header-button-side{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    padding: 1rem;
+}
+.header-button-side-left h2 {
+    font-size: 3.2rem;
+    margin-bottom: 1.5rem;
+}
+.header-button-side-left p{
+    line-height: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.header-button-side-left{
+    height: 100%;
+    flex-basis: 50%;
+}
+.header-button-side-right{
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-button-side-right img{
+    width: 100%;
+}
+.cor-de-fundo{
+    background-color: saddlebrown;
+}
+.page-inner-content{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.cols {
+    display: grid;
+    justify-content: space-evenly;
+    padding: 1rem 4rem;
+}
+.cols-3{
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+}
+.cols-3 img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+.cols-4 img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+.cols-4{
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+}
+.cols>*{
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.cols>*:hover{
+    transform: translateY(-5px);
+}
+.section-title{
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 1.8rem;
+}
+.subtitle-underline{
+    width: 100px;
+    height: 5px;
+    background: sienna;
+    border-radius: 9999px;
+    margin: 8px auto 0 auto;
+}
+.produt{
+    color: saddlebrown;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+
+}
+.produto-nome{
+    font-weight: 600;
+    margin-top: 0.4rem;
+}
+.nota{
+    color: saddlebrown;
+    font-size: 1.3rem;
+}
+.preco-produto span{
+    font-weight: 600;
+}
+.subtitle-underline{
+    width: 100px;
+    height: 5px;
+    background: sienna;
+    border-radius: 9999px;
+    margin: 8px auto 0 auto;
+}
+.produt{
+    color: saddlebrown;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+.produto-nome{
+    font-weight: 600;
+    margin-top: 0.4rem;
+}
+.nota{
+    color: saddlebrown;
+    font-size: 1.3rem;
+}
+.preco-produto span{
+    font-weight: 600;
+}
+depoimento {
+    background-color: #fffaf0;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.depoimento:hover {
+    transform: translateY(-5px);
+}
+
+.depoimento img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 0.5rem;
+    border: 2px solid #8b4513;
+}
+
+.comentario {
+    font-style: italic;
+    color: #4b2e19;
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+}
+
+.cliente {
+    font-weight: bold;
+    color: #8b4513;
+    font-size: 0.9rem;
+}
