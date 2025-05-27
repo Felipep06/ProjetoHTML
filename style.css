@@ -61,10 +61,13 @@ section{
 .header-button-side-left h2 {
     font-size: 3.2rem;
     margin-bottom: 1.5rem;
+    color: saddlebrown;
 }
 .header-button-side-left p{
     line-height: 1.5rem;
     margin-bottom: 1.5rem;
+    font-weight: 500;
+    color: saddlebrown;
 }
 
 .header-button-side-left{
@@ -121,11 +124,12 @@ section{
     text-align: center;
     margin-top: 4rem;
     font-size: 1.8rem;
+    color: saddlebrown;
 }
 .subtitle-underline{
     width: 100px;
     height: 5px;
-    background: sienna;
+    background: peru;
     border-radius: 9999px;
     margin: 8px auto 0 auto;
 }
@@ -149,6 +153,8 @@ section{
 }
 
 .opcoes-produto {
+    width: 200px;
+    height: 200px;
     margin-top: 1rem;
     background-color: #fff8f0;
     padding: 0.8rem;
@@ -214,3 +220,27 @@ section{
     margin-bottom: 0.5rem;
     border: 2px solid peru;
 }
+.c-avaliacao{
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.localliz{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+footer{
+    background-color: saddlebrown;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 2rem;
+}
+footer p{
+    font-size: 0.9rem;
+}
+
